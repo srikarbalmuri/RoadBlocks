@@ -1,0 +1,379 @@
+.headingDiv{
+	width: 100%;
+	height:60px;
+	color: white;
+	text-align: right;
+	background-color: grey;
+	border: 3px solid black;
+	margin: 0px;
+	animation: color-change 2s infinite;
+	font-weight: bolder;
+	font-size: 40px;;
+}
+.mainContentDiv{
+	margin-left: 180px;
+	margin-right: 160px;
+	width:1000px;
+	height:550px;
+	border: 3px solid black;
+	border-style: ridge;
+	background-color: #ffffff;
+	animation: example 20s infinite;
+	margin-top: 60px;
+    align-items: center;
+}
+@keyframes color-change {
+    0% { color: violet; }
+    10% { color: white; }
+    20% { color: blue; }
+    30% { color: green; }
+    40% { color: yellow; }
+    50% { color: red; }
+    60% { color: orange; }
+    70% { color: blue; }
+    80% { color: green; }
+    90% { color: white; }
+    100% { color: red; }
+}
+.headingDiv2{
+	width: 100%;
+	height:60px;
+	background-color: white;
+	border: 3px solid #333333;
+	border: 3px solid red;
+  border-bottom: 0;
+	padding-left: 200px;
+	padding-top: 5px;
+}
+
+.headingDiv2IMG{
+	width: 50px;
+	height:50px;
+ border: 3px solid black;
+}
+
+ul {
+    list-style-type: none;
+		width: 100%;
+		color: white;
+    overflow: hidden;
+    background-color: white;
+    background-image: url("../images/road.png");
+		object-fit:scale-down;
+		background-size:contain;
+}
+
+ul {
+  position: absolute;
+  margin:0;
+	width: 100%;
+}
+ul {
+  z-index: 1;
+}
+img.imgB1 {
+  position: absolute;
+  margin: auto;
+}
+.imgB1 {
+  z-index: 3;
+  top:60px;
+  right:1px;
+  width: 200px; height:200px;
+}
+.li0{
+width:400px;
+}
+.li1{
+background-image: url("../images/greenyellow.png");
+}
+.li2{
+background-image: url("../images/orangeyello.png");
+}
+.li3{
+background-image: url("../images/greenblue.png");
+}
+.li4{
+background-image: url("../images/purple.png");
+}
+.li5{
+background-image: url("../images/red.png");
+}
+
+li {
+    float: left;
+    width:180px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: serif;
+    color: white;
+    font-weight:bolder;
+    font-size: large;
+}
+
+li a:hover {
+    font-weight:lighter;
+}
+
+@keyframes example {
+    0%   {
+    		background-image: url('../images/1.png');
+		    background-size: 1000px 600px;
+    		background-repeat: no-repeat;
+	    }
+    20% {
+    		background-image: url('../images/2.png');
+    		background-size: 1000px 600px;
+    		background-repeat: no-repeat;
+    	}
+    40% {
+    		background-image: url('../images/3.png');
+    		background-size: 1000px 600px;
+    		background-repeat: no-repeat;
+    	}
+    60% {
+    		background-image: url('../images/4.png');
+    		background-size: 1000px 600px;
+    		background-repeat: no-repeat;
+    	}
+    80% {
+    		background-image: url('../images/5.png');
+    		background-size: 1000px 600px;
+    		background-repeat: no-repeat;
+    	}
+    90% {
+    		background-image: url('../images/6.png');
+    		background-size: 1000px 600px;
+    		background-repeat: no-repeat;
+    	}
+    100% {
+    		background-image: url('../images/7.png');
+    		background-size: 1000px 600px;
+    		background-repeat: no-repeat;
+    	}
+}
+
+
+h1{
+	text-align: center;;
+}
+h5 {
+	color:red;
+	margin-left: 85px;
+}
+span{
+	color:red;
+	font-size: x-small;
+}
+
+h4{
+	margin-left: 85px;
+	animation: color-change 2s infinite;
+}
+h6{
+	animation: color-change 2s infinite;
+	font-size: large;
+	margin-left: 10px;
+}
+.typeContestant{
+	position: relative;
+	width: 200px;
+	height: 26px;
+	margin-left: 85px;
+	font-family: Courier;
+	font-size: medium;
+
+}
+.state, .day, .month{
+	font-family: Courier;
+	font-size: medium;
+}
+.regDetailsTable{
+	margin-left: 85px;
+	font-size: large;
+}
+
+td{
+	width: 280px;
+	height: 40px;
+}
+.state{
+	width: 200px;
+}
+.month{
+	width: 75px;
+}
+#year{
+	width:50px;
+	height: 26px;
+}
+#f3, #s3, #l4{
+	width:60px;
+	height: 26px;
+}
+
+.msg{
+	color: red;
+	font-weight:bolder;
+  	animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% { opacity: 0; }
+}
+
+#fn, #ln, #ad1, #ad2, #city, #zip, #email{
+	width: 200px;
+	height: 26px;
+}
+
+.sub, .res{
+	height:60px;
+	font-family: Courier;
+	font-size: medium;
+}
+.subTD{
+	height:60px;
+	text-align: right;
+}
+.resTD{
+	height:60px;
+	text-align: left;
+}
+
+
+.playerSelection{
+	margin-left: 160px;
+	margin-right: 160px;
+	width:1000px;
+	height:800px;
+	border: 3px solid #ffffff;
+	border-style: ridge;
+	background-color: #cccccc;
+	margin-top: 50px;
+	padding-top:25px;
+	font-family: Courier;
+}
+.buttonDiv{
+	text-align: center;
+}
+
+.GameLink{
+	text-align: right;
+}
+h3.header{
+	text-align: center;
+}
+
+#player1{
+	margin-left: 260px;
+}
+
+#loading{
+	 width: 400px;
+	 height:400px;
+	 position: absolute;
+}
+.imgSpin{
+	width: 170px;
+	height:170px;
+	position: absolute;
+	margin-left: 260px;
+}
+
+#loading {
+  z-index: 1;
+}
+.imgSpin {
+  z-index: 3;
+  top:736px;
+  left:285px;
+}
+
+#loading{
+		animation: spin 1s linear infinite;
+		animation-play-state: paused;
+}
+
+#loading:hover{
+	animation-play-state: running;
+}
+
+@keyframes spin {
+	to {
+		transform: rotate(1.5turn);
+	}
+}
+
+.colors{
+	width: 200px;
+	height: 26px;
+}
+
+
+
+@keyframes hoverdisplay {
+  0% {
+
+    opacity: 0;
+		max-height: 0;
+  }
+  100% {
+
+    opacity: 1;
+	max-height: 50px;
+  }
+}
+
+@keyframes hoverstyle {
+  0% {
+
+    background: #C9F2EB linear-gradient(#C9F2EB 0%, #E1F9F5 49%, #D1DDDA 51%, #ADBBB8 100%);
+  	border-color: #C9F2EB #B6D7D1 #ADBBB8 #B6D7D1;
+  	box-shadow: 0 1px 3px rgba(191,110,38,0.5);
+  }
+  100% {
+
+    background: #ADBBB8 linear-gradient(#ADBBB8 0%, #D1DDDA 98%, #E1F9F5 99%, #C9F2EB 100%);
+    border-color: #ADBBB8 #B6D7D1 #C9F2EB #B6D7D1;
+    box-shadow: 0 -1px 1px rgba(191,110,38,0.5);
+  }
+}
+.aboutContentDiv {
+	margin-left: 180px;
+	margin-right: 160px;
+	width:1000px;
+	height:550px;
+	border: 3px solid black;
+	border-style: ridge;
+	background-color: #b9ecf0;
+	margin-top: 60px;
+	font-family: Courier;
+}
+.aboutContentDiv2 {
+	margin-left: 90px;
+	margin-right: 60px;
+	width:100px;
+	height:100px;
+	border: 3px solid black;
+	border-style: ridge;
+	background-color: #cccccc;
+	margin-top: 100px;
+	padding-top:25px;
+	font-family: Courier;
+}
+
+.aboutPRE{
+	font-family: Courier;
+	font-size: large;
+	width:1000px;
+	text-align: justify;
+	margin-left: 10px;
+	margin-right: 40px;
+}

@@ -1,0 +1,147 @@
+#conatiner {
+    position              : absolute;
+    height                : 100vh;
+    -webkit-box-pack      : center;
+    -ms-flex-pack         : center;
+    justify-content       : center;
+    align-items           : center;
+    background-image: url("images/Background.png");
+    width: 700px;
+    height: 500px;
+}
+a:link, a:visited {
+  text-align: center;
+  text-decoration: none;
+}
+#snake{
+
+	 background-color:red;
+	 height:50px;
+	 width:80px;
+	text-align:center;
+}
+.button {
+  background-color: #28334AFF; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px;
+}
+#user_guess:disabled,
+#user_guess[disabled]{
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+}
+
+.button:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+.button2 {
+  background-color: #ebe8e8; /* Green */
+  border-radius: 4px;
+}
+
+#show{
+    margin-top: 640px;
+    color: #669DB3FF;
+}
+#names{
+    color: #455372;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    text-align: center;
+}
+#scores{
+    color: #999999;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+#user_guess{
+    margin-left: 35px;
+    background-color: #008CBA;
+    font-size: 12px;
+    color: white;
+    border-radius: 8px;
+    display: inline-block;
+    cursor: pointer;
+    border: 2px solid #e7e7e7;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+#player_1_gui h1{
+    margin-top: 600px;
+    margin-left: 40px;
+}
+#player_2_gui h1{
+    margin-top: 600px;
+    margin-left: 40px;
+}
+#player_1_gui h2{
+
+    margin-left: 40px;
+}
+#player_2_gui h2{
+
+    margin-left: 40px;
+}
+input[type=text]#user_guess {
+  display: block;
+}
+
+html {
+    height   : 100vh;
+    overflow : scroll;
+    background-color: #f5e267
+}
+html #main_game_form {
+    display         : -webkit-box;
+    display         : -ms-flexbox;
+    display         : flex;
+    -ms-flex-pack   : distribute;
+    justify-content : space-around;
+	height:1000px;
+	overflow: scroll;
+    background-color:white;
+   padding-top: 50px;
+
+}
+#milestone{
+  margin-top: 50px;
+     background-color:white;
+      height: 1000px;
+
+}
+
+html #start-form-wrapper {
+
+    display            : -webkit-box;
+    display            : -ms-flexbox;
+    display            : flex;
+    -ms-flex-pack      : distribute;
+    justify-content    : space-around;
+    -ms-flex-line-pack : center;
+    align-content      : center;
+    width: 100%;
+	margin-top: 280px;
+}
+
+html #start-form-wrapper #start-form {
+    justify-self : center;
+    text-align   : center;
+}
+
+html #start-form-wrapper #start-form input {
+    padding : 10px;
+    margin  : 10px;
+}
+
+html #start-form-wrapper #start-form #names {
+    display : -webkit-box;
+    display : -ms-flexbox;
+    display : flex;
+}

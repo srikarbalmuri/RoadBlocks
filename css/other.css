@@ -1,0 +1,103 @@
+
+.headingDiv{
+	width: 100%;
+	color: white;
+	text-align: right;
+	height:300px;
+	background-color: white;
+	border: 1px solid black;
+	margin: 0px;
+}
+
+.headingDiv2{
+	width: 100%;
+	height:60px;
+	background-color: white;
+	border: 3px solid #333333;
+	padding-left: 200px;
+	padding-top: 5px;
+}
+
+.headingDiv2IMG{
+	width: 30px;
+	hieght:30px;
+}
+
+ul {
+    list-style-type: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: blue;
+    background-image: url("images/blue.png");
+}
+
+ul {
+  position: absolute;
+  margin: auto;
+}
+ul {
+  z-index: 1;
+}
+img.imgB1 {
+  position: absolute;
+  margin: auto;
+}
+.imgB1 {
+  z-index: 3;
+  top:60px;
+  left:90px;
+  width: 150px; height:150px;
+}
+.li0{
+width:200px;
+}
+.li1{
+background-image: url("images/purple.png");
+}
+.li2{
+background-image: url("images/red.png");
+}
+.li3{
+background-image: url("images/orangeyello.png");
+}
+.li4{
+background-image: url("images/greenyellow.png");
+}
+.li5{
+background-image: url("images/greenblue.png");
+}
+
+li {
+    float: left;
+    width:170px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: serif;
+    color: white;
+    font-weight:bolder;
+    font-size: large;
+}
+
+li a:hover {
+    font-weight:lighter;
+}
+.mainBodyDiv{
+	background-image: url("../images/bg.jpg");
+}
+.playerRegisterDiv{
+	margin-left: 160px;
+	margin-right: 160px;
+	width:1000px;
+	height:600px;
+	border: 3px solid #ffffff;
+	border-style: ridge;
+	background-color: graytext;
+}
