@@ -43,6 +43,7 @@ $_SESSION['players'] = '';
 	</a>
 </div>
 
+
 </body>
 </html>
 <?php
