@@ -35,9 +35,6 @@ and the resulted number helps or hinders by crossing the Danger zones,
 of one’s game piece.
 
 
-
-
-
 	</pre>
 	</div>
 </div>
